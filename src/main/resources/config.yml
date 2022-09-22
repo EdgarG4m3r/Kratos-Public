@@ -1,0 +1,21 @@
+server-name: "kratos"
+panic-url: "https://kratos.luckynetwork.net/"
+panic-upload: false
+self-contained: true
+
+redis:
+    host: "localhost"
+    port: 6379
+    password: "kratos"
+    database: 0
+    user: "kratos"
+    channel: "kratos"
+
+mysql:
+    host: "localhost"
+    port: 3306
+    user: "kratos"
+    password: "kratos"
+    database: "kratos"
+    table: "kratos"
+    ssl: true

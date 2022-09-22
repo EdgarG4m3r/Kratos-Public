@@ -1,0 +1,9 @@
+name: Kratos
+version: '${project.version}'
+main: id.apollo.luckynetwork.kratos.kratos.Kratos
+prefix: KRATOS
+load: STARTUP
+loadbefore: [ LuckyCore, LuckyCoreV5, LuckyCoins, LuckyShop ]
+authors: [ FacedApollo ]
+description: A new rank syncronization plugin for LuckyNetwork
+website: luckynetwork.id
